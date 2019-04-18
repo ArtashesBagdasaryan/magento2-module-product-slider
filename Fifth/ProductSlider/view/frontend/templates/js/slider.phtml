@@ -1,0 +1,18 @@
+<?php
+
+$configHelper = $this->helper('Fifth\ProductSlider\Helper\Data');
+
+?>
+
+<?php if ($configHelper ->isEnabled()): ?>
+<script>
+    require(['jquery','Fifth_ProductSlider/js/owl.carousel'],function($) {
+        $(document).ready(function() {
+            $("#fifth-product-slider").owlCarousel( <?php echo $configHelper->getAllOptions(); ?> );
+
+        });
+    });
+
+</script>
+
+<?php endif; ?>
