@@ -1,23 +1,20 @@
 # magento2-module-product-slider
-Magento  2 Module Simple product slider for using 
-you should download it and install .
-for install you should you use following commands
-php bin/magento setup:upgrade
-if the production mode 
-php bin/magento setup:static-content:deploy
-if the development mode 
-php bin/magento c:c
-php bin/magento c:f
+If you want to use Magento 2 Module Simple product slider you should download and install it. 
+You should you use the following commands to install
+: php bin/magento setup:upgrade . 
 
-After successfully installation you should  go to  
-Stores > Settings > Configuration  >Fifth > Product Slider  and enable it.
-Wha tis functionality ? 
-There is two blocks one is the simple block you can use it and from xml and from php and frompage config.
-and one advanced widget where you can set 
-Slider   title, 
-Slider - Products Type ,
-Slider- Page Size(cunt of products to select).
+If you're in production mode, use this command: p
+hp bin/magento setup:static-content:deploy 
+and if in development mode, the following one: 
+php bin/magento c:c php bin/magento c:f
 
+After successful installation you should go to
+Stores > Settings > Configuration >Fifth > Product Slider and enable it.
+What is its functionality? There are two blocks: one is the simple block which you can use from xml,
+php and frompage config,
+and the other one is an advanced widget where you can set Slider title,
 
-Attention please : If will need some help or will need to make more advanced slider  I am here.
+Slider - Products Type , Slider- Page Size (count of products to be selected).
+
+Don't hesitate to contact me in case you will need some help to install it or to make more advanced slider.
 
